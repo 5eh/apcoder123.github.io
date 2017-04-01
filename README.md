@@ -1,2 +1,9 @@
 # apcoder123.github.io
-Personal website
+Personal site(Portfolio), Using React.Js and Node.
+
+## Frameworks & Libraries
+SCSS
+SmoothScroll
+Animate.css
+React.Js
+Node.Js
