@@ -1,0 +1,387 @@
+#particle {
+  background-color: #b61924;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0;
+}
+#overlay {
+  position: relative;
+}
+
+.navbar-custom {
+  background: #2C3E50;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+
+.navbar-custom .navbar-brand {
+  color: white;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: white;
+}
+
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #18BC9C;
+}
+
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+#home {
+
+  height: 100vh;
+  background-size: cover;
+}
+
+#home:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to left, #2c373a, #313d41);
+  background-image: -webkit-linear-gradient(to left, #2c373a, #313d41);
+  opacity: .6;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+
+/* Typer styles */
+
+.type-wrapper {
+  color: white;
+  font-family: Montserrat;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+  font-size: 4.45em;
+  font-weight: 700;
+  z-index: 1;
+}
+
+#type-space {
+  font-size: 1em;
+}
+
+@include bp-mob {
+  .type-wrapper {
+    display: inline-block;
+  }
+  #type-space {
+    font-size: 1em;
+  }
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#learnmore {
+  position: absolute;
+  top: 650px;
+  left: 0;
+  width: 100%;
+}
+
+#learnmore a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#learnmore a:hover {
+  color: white;
+}
+
+#about-me-header {
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+#about-hr {
+  border: none;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+  width: 15%;
+  float: center;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  height: 10px;
+}
+
+#about-img {
+  margin-right: 50px;
+    margin-left: 25px;
+  border-radius: 6px;
+  width: 15%;
+  float: left;
+}
+
+#about-text {
+  font-family: Montserrat;
+    font-size: 1.5em;
+}
+
+#about-items {
+  display: flex;
+  align-items: center;
+  /* eventually: justify-content:space-around/center/space-between;
+*/}
+
+.button {
+  background-color: transparent;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  padding: 10px 30px 8px;
+  font-size: 16px;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.button-neutral {
+  color: #000;
+  border-color: #000;
+}
+
+.button-neutral:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+.box>.icon {
+  text-align: center;
+  position: relative;
+}
+
+.box>.icon>.image {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border: 8px solid white;
+  line-height: 88px;
+  border-radius: 50%;
+  background: #4466e4;
+  vertical-align: middle;
+}
+
+.box>.icon>.image>i {
+  font-size: 36px !important;
+  color: #fff !important;
+}
+
+.box>.icon>.info {
+  margin-top: -24px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid #e0e0e0;
+  padding: 15px 0 10px 0;
+}
+
+.box>.icon>.info>h3.title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+
+.box .space {
+  height: 30px;
+}
+
+#edu-img {
+  float: left;
+  width: 65px;
+  height: 65px;
+}
+
+#edu-text {
+  float: left;
+}
+
+#left {
+  text-align: left;
+  float: left;
+}
+#eduandother {
+    top: -35px;
+
+}
+
+#skillsbutton-container {
+    top: -35px;
+
+}
+
+nav.navbar.shrink {
+  max-height: 75px;
+   -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+   -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+   -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+   -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+#skills{
+    background-color: #eee;
+}
