@@ -2,7 +2,7 @@
  * Created by Arun on 06/08/2017.
  */
 import React from 'react';
-import Particle from '';
+import Particle from 'react-particles-js';
 import ParticleConfig from '../particlesjs-config.json';
 import './landing.css';
 import Navbar from './Navbar/Navbar'
