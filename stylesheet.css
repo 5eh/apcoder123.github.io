@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400');
+body{
+	overflow-x: hidden;
+}
 #landing{
 	position: absolute;
     top: 0;
@@ -6,9 +9,9 @@
     width: 100vw;
     height: 100vh;
     background: #159957;  /* fallback for old browsers */
-	background: linear-gradient(to bottom, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	background: -webkit-linear-gradient(top, #155799 0%, #159957 100%);  /* Chrome 10-25, Safari 5.1-6 */
-	background: -moz-linear-gradient(top,  #155799 0%, #159957 100%); /* FF3.6-15 */
+	background: linear-gradient(to bottom, #004ff9, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(top, #004ff9 0%, #159957 100%);  /* Chrome 10-25, Safari 5.1-6 */
+	background: -moz-linear-gradient(top,  #004ff9 0%, #159957 100%); /* FF3.6-15 */
 }
 #title-container{
 	position: absolute;
@@ -22,22 +25,22 @@
 #title{
 	font-family: 'Montserrat', sans-serif;
 	color:white;
-	font-size: 10vh;
+	font-size: 5em;
 	letter-spacing: 0.2rem;
 	margin-bottom: 5px;
 }
 #title #first{
-	font-weight: 300;
+	font-weight: 100;
 }
 #title #second{
-	font-weight:600;
+	font-weight:300;
 }
 #subtitle{
 	font-family: 'Montserrat', sans-serif;
 	color:white;
-	font-size: 4.5vh;
+	font-size: 2.25em;
 	margin-top: 10px;
-	font-weight:200;
+	font-weight:100;
 	word-spacing: 5px;
 }
 #downButton-container{
@@ -51,8 +54,8 @@
 .arrow{
 	margin:0 auto;
     box-sizing: border-box;
-  height: 2.5vw;
-  width: 2.5vw;
+  height: 3.5vw;
+  width: 3.5vw;
   border-style: solid;
   border-color: white;
   border-width: 0px 1px 1px 0px;
@@ -62,4 +65,54 @@
 .arrow:hover{
 	 border-bottom-width: 4px;
   border-right-width: 4px;
+}
+#arrow-click:active{
+	transition:  150ms ease-in-out;
+}
+#about-container{
+	margin-top:105vh;
+	width: 100vw;
+	height:75vh;
+
+}
+#about-heading{
+	width:100vw;
+	font-family: 'Montserrat', sans-serif;
+	color:black;
+    text-align: center;
+    font-size: 2.75em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#about-items{
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 75vw;
+    margin: 0 auto;
+}
+.about-item{
+	flex-basis: 50%;
+    align-items: center;
+}
+
+#about-img-e{
+	margin-top: 2.5vh;
+	margin-bottom: 2.5vh;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 15%;
+
+}
+#about-text{
+	font-family: 'Montserrat', sans-serif;
+	    font-size: 1.25em;
+    font-weight: 300;
+    min-width: 250px;
+
+}
+code{
+	background-color:#eeeeee;
+	font-style: italic;
 }

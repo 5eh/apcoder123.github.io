@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
 </head>
 <body>
 <div id="landing">
@@ -16,9 +16,43 @@
 
 	</div>
 	<div id="downButton-container">
-	<div class="arrow" style="margin-bottom: 75px;"></div>
+	<a href="#about-container" id="arrow-click"><div class="arrow" style="margin-bottom: 75px;" ></div></a>
 	</div>
 </div>
+<div id="about-container">
+	<h1 id="about-heading">About</h1>
+	<div id="about-items">
+		<div id="about-img" class="about-item">
+			<img id="about-img-e" src="./img/github2.png"></img>
+		</div>
+		<div id="about-text" class="about-item">
+			<p id="about-text-p">Hi. I'm Arun Pattni, a <code>student</code> &amp; <code>web developer</code></p>
+			<p id="about-text-p">I've been into computers for as long as I can remember and now, I create  <code>interesting</code> &amp; <code>useful</code> projects for <code>Web</code>, <code>Desktop</code> and <code>Voice</code> </p>
+			<p id="about-text-p">I work with several languages, including <code>JavaScript</code>, <code>Java</code> and <code>HTML/CSS</code> in order to create things from simple websites and apps to voice skills for Amazon Alexa. I also use frameworks like <code>React.js</code> to improve my work. </p>
+			
+			<p id="about-text-p">More recently, I have been contributing to the <code>open-source</code> community, with projects like XWiki. I am always trying to <code>learn</code> more, but I also share my knowledge by <code>teaching</code> others at Acorn Aspirations' events</p>
+		</div>
 
+	</div>
+	
+
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    $('a[href^="#"]').click(function(e) {
+        e.preventDefault();
+        var target = this.hash, $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function() {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
 </body>
 </html>
