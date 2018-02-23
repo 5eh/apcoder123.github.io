@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/arunpattni
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://arunpattni.com
+  * I am arunpattni (https://keybase.io/arunpattni) on keybase.
+  * I have a public key ASAhJyGBmQ4cPH-2HDBBe8LcRzrtWzDPLsthoLQdQmPImgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012021272181990e1c3c7fb61c30417bc2dc473aed5b30cf2ecb61a0b41d4263c89a0a",
+      "host": "keybase.io",
+      "kid": "012021272181990e1c3c7fb61c30417bc2dc473aed5b30cf2ecb61a0b41d4263c89a0a",
+      "uid": "f222bb6f70418b4d1b709da5b4915819",
+      "username": "arunpattni"
+    },
+    "merkle_root": {
+      "ctime": 1519408794,
+      "hash": "dbd4284e148e9db7d0be345cf871faca585b974cffff2428acd62d6c5130f5f0b64a801ced87176bd5619871f842d9418dd5b9c0fb437f3f67ae59695784c5f8",
+      "hash_meta": "16205b1caf9c7a216f6d96f107973b68bf0393d22a8e4bba84b969acf6598e18",
+      "seqno": 2143382
+    },
+    "service": {
+      "hostname": "arunpattni.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.41"
+  },
+  "ctime": 1519408808,
+  "expire_in": 504576000,
+  "prev": "a0f5c76e7b8ff78235fdf3a5937b384df6ed4e8c7703346a87d32eea593d9d12",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgISchgZkOHDx/thwwQXvC3Ec67Vswzy7LYaC0HUJjyJoKp3BheWxvYWTFA0h7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMjEyNzIxODE5OTBlMWMzYzdmYjYxYzMwNDE3YmMyZGM0NzNhZWQ1YjMwY2YyZWNiNjFhMGI0MWQ0MjYzYzg5YTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjEyNzIxODE5OTBlMWMzYzdmYjYxYzMwNDE3YmMyZGM0NzNhZWQ1YjMwY2YyZWNiNjFhMGI0MWQ0MjYzYzg5YTBhIiwidWlkIjoiZjIyMmJiNmY3MDQxOGI0ZDFiNzA5ZGE1YjQ5MTU4MTkiLCJ1c2VybmFtZSI6ImFydW5wYXR0bmkifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTk0MDg3OTQsImhhc2giOiJkYmQ0Mjg0ZTE0OGU5ZGI3ZDBiZTM0NWNmODcxZmFjYTU4NWI5NzRjZmZmZjI0MjhhY2Q2MmQ2YzUxMzBmNWYwYjY0YTgwMWNlZDg3MTc2YmQ1NjE5ODcxZjg0MmQ5NDE4ZGQ1YjljMGZiNDM3ZjNmNjdhZTU5Njk1Nzg0YzVmOCIsImhhc2hfbWV0YSI6IjE2MjA1YjFjYWY5YzdhMjE2ZjZkOTZmMTA3OTczYjY4YmYwMzkzZDIyYThlNGJiYTg0Yjk2OWFjZjY1OThlMTgiLCJzZXFubyI6MjE0MzM4Mn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhcnVucGF0dG5pLmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjQxIn0sImN0aW1lIjoxNTE5NDA4ODA4LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImEwZjVjNzZlN2I4ZmY3ODIzNWZkZjNhNTkzN2IzODRkZjZlZDRlOGM3NzAzMzQ2YTg3ZDMyZWVhNTkzZDlkMTIiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAMiWuJx0fr1Jl7ER5t2/tpAInZKJXOgBqa9USlCHMifXeMEHsiRyd8vh2PScL4RTH9whQt1lRz+MwK8O2J+4sOqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgWYdz51jRZOoumY/LzubJVXIukfJ8BfLBhrwgeCVklYmjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/arunpattni
+
+==================================================================
