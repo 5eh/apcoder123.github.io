@@ -2,25 +2,26 @@
 <html>
 <head>
 	<title>Arun Pattni</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet-test.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
 </head>
 <body>
-<div id="landing">
+ <div id="particles-js">
+
 	<div id="title-container">
 	<h1 id="title"><span id="first">Arun</span> <span id="second">Pattni</span></h1>
 	<h2 id="subtitle">Student | Developer </h2>
 
 	</div>
 	<div id="downButton-container">
-	<a href="#about-container" id="arrow-click"><div class="arrow" style="margin-bottom: 75px;" ></div></a>
+	<a href="#about-container" id="arrow-click"><div class="arrow" style="margin-bottom: 75px;"></div></a>
 	</div>
 </div>
 <div id="about-container">
-	<h1 id="about-heading">About</h1>
+	<h1 id="about-heading">About Me</h1>
 	<div id="about-items">
 		<div id="about-img" class="about-item">
 			<img id="about-img-e" src="./img/github2.png"></img>
@@ -37,22 +38,19 @@
 	
 
 </div>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-    $('a[href^="#"]').click(function(e) {
-        e.preventDefault();
-        var target = this.hash, $target = $(target);
-        $('html, body').stop().animate({
-            'scrollTop': $target.offset().top
-        }, 900, 'swing', function() {
-            window.location.hash = target;
-        });
-    });
-});
-</script>
+<!--
+<div id="contact-container">
+	<h1 id="contact-heading">Contact Me:</h1>
+	<form action="https://formspree.io/me@arunpattni.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+</div>-->
+
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="onload.js"></script>
+<script type="text/javascript" src="js/particles.min.js"></script>
 </body>
 </html>
